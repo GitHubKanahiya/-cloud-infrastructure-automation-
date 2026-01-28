@@ -66,7 +66,6 @@ This document outlines the step-by-step process for deploying a 2-tier web appli
     * Select the **t2.micro** instance type for free-tier eligibility.
     * Create and assign a new key pair for SSH access.
 
-<img src="diagrams/01.png">
 
 2.  **Configure Security Group:**
     * Create a security group with the following inbound rules:
@@ -308,3 +307,4 @@ The CI/CD pipeline is now fully operational. Any `git push` to the `main` branch
 ### **10. Work flow Diagram**
 
 <img src="diagrams/project_workflow.png">
+
